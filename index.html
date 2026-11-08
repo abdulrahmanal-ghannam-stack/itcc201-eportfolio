@@ -1,0 +1,168 @@
+<title>Alghannam ITC C201 E-Portfolio</title>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+:root{--bg:#f6f4ee;--surface:#fffdf8;--fg:#1d2733;--muted:#5d6874;--line:#ddd8ca;--accent:#0b5c6b;--accent-fg:#fff;--tint:#e4eef0;--code:#f0ede2}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#10181d;--surface:#172229;--fg:#e8ecee;--muted:#9aa8b1;--line:#2a3a43;--accent:#5cc3d3;--accent-fg:#08242a;--tint:#1b3139;--code:#0d151a;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#10181d;--surface:#172229;--fg:#e8ecee;--muted:#9aa8b1;--line:#2a3a43;--accent:#5cc3d3;--accent-fg:#08242a;--tint:#1b3139;--code:#0d151a;color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--fg);font:16px/1.65 "IBM Plex Sans",system-ui,sans-serif;margin:0;padding-block:0 48px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+.wrap{max-width:860px;margin:0 auto;display:flex;flex-direction:column;gap:20px}
+h1,h2{font-family:Fraunces,Georgia,serif;text-wrap:balance;margin:0;line-height:1.15}
+.hero{padding:40px 0 8px;display:flex;flex-direction:column;gap:14px}
+.eyebrow{font:500 12px "IBM Plex Mono",monospace;letter-spacing:.12em;text-transform:uppercase;color:var(--accent)}
+h1{font-size:clamp(32px,7vw,52px);font-weight:700}
+.sub{color:var(--muted);margin:0}
+.meta{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:1px;background:var(--line);border:1px solid var(--line);border-radius:10px;overflow:hidden}
+.meta div{background:var(--surface);padding:12px 14px;min-width:0}
+.meta b{display:block;font:500 11px "IBM Plex Mono",monospace;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+.cta{background:var(--accent);color:var(--accent-fg);border-radius:12px;padding:20px;display:flex;gap:16px;align-items:center;justify-content:space-between;flex-wrap:wrap}
+.cta p{margin:0;min-width:0}
+.cta strong{font-family:Fraunces,Georgia,serif;font-size:20px;display:block}
+.btns{display:flex;gap:10px;flex-wrap:wrap}
+.btn{border:2px solid var(--accent-fg);color:var(--accent-fg);background:transparent;padding:9px 16px;border-radius:8px;font:600 15px "IBM Plex Sans",sans-serif;text-decoration:none;cursor:pointer}
+.btn.solid{background:var(--accent-fg);color:var(--accent)}
+nav{display:flex;flex-wrap:wrap;gap:8px}
+nav a{font:500 13px "IBM Plex Mono",monospace;color:var(--fg);text-decoration:none;border:1px solid var(--line);background:var(--surface);padding:6px 10px;border-radius:999px}
+nav a:hover{border-color:var(--accent);color:var(--accent)}
+section{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:24px;display:flex;flex-direction:column;gap:14px;min-width:0;scroll-margin-top:12px}
+.num{font:500 12px "IBM Plex Mono",monospace;color:var(--accent);letter-spacing:.1em}
+h2{font-size:26px}
+p{margin:0}
+ul{margin:0;padding-left:20px;display:flex;flex-direction:column;gap:4px}
+.items{list-style:none;padding:0;gap:0;border-top:1px solid var(--line)}
+.items li{display:flex;justify-content:space-between;gap:16px;padding:11px 0;border-bottom:1px solid var(--line)}
+.items li span:first-child{min-width:0}
+.pg{font:500 13px "IBM Plex Mono",monospace;color:var(--accent);white-space:nowrap}
+.pg a{color:inherit}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px}
+.card{background:var(--tint);border-radius:8px;padding:14px;min-width:0}
+.card h3{margin:0 0 6px;font:600 14px "IBM Plex Sans",sans-serif}
+code{font:400 13px "IBM Plex Mono",monospace;background:var(--code);padding:1px 6px;border-radius:4px}
+.q{border-left:3px solid var(--accent);padding-left:14px;display:flex;flex-direction:column;gap:4px}
+.q h3{margin:0;font:600 15px "IBM Plex Sans",sans-serif}
+.small{font-size:13px;color:var(--muted)}
+footer{text-align:center}
+</style>
+
+<div class="wrap">
+<header class="hero">
+  <div class="eyebrow">Individual Class Portfolio · A.Y. 2026–2027 · 1st Semester</div>
+  <h1>Abdulrahman Alghannam</h1>
+  <p class="sub">ITC C201 – Database Fundamentals · José Rizal University, College of Computer Studies &amp; Engineering (CSE)</p>
+  <div class="meta">
+    <div><b>Student No.</b>26-267514</div>
+    <div><b>Program</b>BSIT – Business Analytics, 2nd Year</div>
+    <div><b>Section</b>201BA</div>
+    <div><b>Instructor</b>Virginia B. Loyola, MIT</div>
+  </div>
+</header>
+
+<div class="cta">
+  <p><strong>The complete portfolio as ONE PDF</strong>89 pages · all sections in the prescribed order · numbered pages · bookmarks</p>
+  <div class="btns">
+    <a class="btn solid" id="open" href="ITCC201_ClassPortfolio_Alghannam_Abdulrahman.pdf" target="_blank" rel="noopener">Open PDF</a>
+    <a class="btn" href="ITCC201_ClassPortfolio_Alghannam_Abdulrahman.pdf" download>Download</a>
+  </div>
+</div>
+<p class="small" id="msg" role="status"></p>
+
+<nav aria-label="Sections">
+  <a href="#s3">3 Profile</a><a href="#s4">4 Syllabus</a><a href="#s5">5 Classroom</a><a href="#s6">6 Laboratory</a><a href="#s7">7 Projects</a><a href="#s8">8 Reflection</a><a href="#s9">9 Summary</a>
+</nav>
+
+<section id="s2">
+  <div class="num">02</div><h2>Table of Contents</h2>
+  <ul class="items">
+    <li><span>1. Cover Page</span><span class="pg">p. 1</span></li>
+    <li><span>3. Student Profile</span><span class="pg">p. 3</span></li>
+    <li><span>4. Course Syllabus / Course Outline</span><span class="pg">p. 4</span></li>
+    <li><span>5. Classroom Activities and Exercises</span><span class="pg">p. 5</span></li>
+    <li><span>6. Laboratory Activities</span><span class="pg">p. 37</span></li>
+    <li><span>7. Projects and Performance Tasks</span><span class="pg">p. 85</span></li>
+    <li><span>8. Learning Reflection</span><span class="pg">p. 88</span></li>
+    <li><span>9. Course Learning Summary</span><span class="pg">p. 89</span></li>
+  </ul>
+</section>
+
+<section id="s3">
+  <div class="num">03</div><h2>Student Profile</h2>
+  <div class="grid">
+    <div class="card"><h3>Education</h3>B.S. Information Technology, Major in Business Analytics, José Rizal University (2nd year).</div>
+    <div class="card"><h3>Interests</h3>Programming and building small tools · quantitative trading and finance · mobile gaming.</div>
+    <div class="card"><h3>Skills</h3>Python, C++, pandas, SQL, Flutter/Dart.</div>
+  </div>
+  <h3 style="margin:4px 0 0;font:600 15px 'IBM Plex Sans',sans-serif">Hands-on projects</h3>
+  <ul>
+    <li>Flutter + Firebase e-commerce CRUD app (group, ITC C204)</li>
+    <li>Concertify – concert ticket booking website (group, HCI)</li>
+    <li>FoodSave – Food Waste Tracker, Flutter app for SDG 12 (group)</li>
+    <li>Group digital e-portfolio website</li>
+    <li>Scanned Arabic books to searchable text tool</li>
+    <li>Browser-based Monte Carlo simulators (HTML + JavaScript)</li>
+  </ul>
+  <p>I am a second-year BSIT student majoring in Business Analytics. I am interested in how data can be organized, analyzed, and used to support good decisions. My goal is to become a skilled business analyst who can turn data into useful information. <span class="pg"><a href="ITCC201_ClassPortfolio_Alghannam_Abdulrahman.pdf#page=3" target="_blank" rel="noopener">Full profile, p. 3</a></span></p>
+</section>
+
+<section id="s4">
+  <div class="num">04</div><h2>Course Syllabus Summary</h2>
+  <p>ITC C201 is a 3-unit course (2 hours lecture, 3 hours laboratory) that introduces database concepts, design, creation and management using Oracle Database SQL. It ends with a project in which students design and demonstrate a normalized database solution for a business.</p>
+  <div class="grid">
+    <div class="card"><h3>Prelim (Weeks 1–6)</h3>Database fundamentals, ERDs, supertypes/subtypes, Oracle SQL Data Modeler.</div>
+    <div class="card"><h3>Midterm (Weeks 7–12)</h3>Oracle APEX, normalization (1NF–3NF), DDL, constraints, INSERT / UPDATE / DELETE.</div>
+    <div class="card"><h3>Final (Weeks 13–18)</h3>WHERE, LIKE, IN, BETWEEN, group functions, inner / outer / self / cross / natural joins.</div>
+  </div>
+  <p class="small">Grading: Prelim 30% · Midterm 30% · Final 40%. Each term = class standing 70% + major exam 30%. <a href="ITCC201_ClassPortfolio_Alghannam_Abdulrahman.pdf#page=4" target="_blank" rel="noopener" style="color:var(--accent)">Full summary, p. 4</a></p>
+</section>
+
+<section id="s5">
+  <div class="num">05</div><h2>Classroom Activities and Exercises</h2>
+  <ul class="items">
+    <li><span>Prelim Activity No. 1 – Conceptual Model (SQL Data Modeler)</span><span class="pg">p. 6</span></li>
+    <li><span>Prelim Assignment No. 1 – Database Design ERD (hand-drawn)</span><span class="pg">p. 7</span></li>
+    <li><span>Prelim Activity No. 2 – Supertype and Subtype Entities</span><span class="pg">p. 8</span></li>
+    <li><span>Midterm Assignment No. 1 – Oracle APEX Account</span><span class="pg">p. 10</span></li>
+    <li><span>Midterm Activity No. 1 – Creating Tables Using Oracle APEX</span><span class="pg">p. 11</span></li>
+    <li><span>Midterm Activity No. 2 – Inserting Records</span><span class="pg">p. 15</span></li>
+    <li><span>Midterm Activity No. 3 – Updating Records</span><span class="pg">p. 17</span></li>
+    <li><span>Final Activity No. 1 – Alias, Arithmetic and Concatenation Operators</span><span class="pg">p. 26</span></li>
+    <li><span>Final Seatwork No. 2 – Sorting and Joining Tables</span><span class="pg">p. 32</span></li>
+  </ul>
+</section>
+
+<section id="s6">
+  <div class="num">06</div><h2>Laboratory Activities</h2>
+  <ul class="items">
+    <li><span>Midterm Project – Laboratory Activities #2 to #8</span><span class="pg">p. 38</span></li>
+    <li><span>Laboratory Activities #10 to #12</span><span class="pg">p. 48</span></li>
+    <li><span>Final Term Activity No. 3 – Joining Tables</span><span class="pg">p. 64</span></li>
+    <li><span>Final Term Activity No. 4 – SQL Sorting and Joining Tables Part 2</span><span class="pg">p. 71</span></li>
+  </ul>
+  <p class="small">Each lab shows the SQL code (<code>CREATE</code>, <code>INSERT</code>, <code>SELECT … JOIN</code>, <code>GROUP BY</code>) and a screenshot of the actual Oracle APEX output.</p>
+</section>
+
+<section id="s7">
+  <div class="num">07</div><h2>Projects and Performance Tasks</h2>
+  <ul class="items">
+    <li><span>Prelim Project – ERD and Normalization</span><span class="pg">p. 86</span></li>
+  </ul>
+</section>
+
+<section id="s8">
+  <div class="num">08</div><h2>Learning Reflection</h2>
+  <div class="q"><h3>What important knowledge and skills did I learn?</h3><p>I learned to draw ERDs in SQL Data Modeler, including supertype and subtype entities, and to apply normalization. In Oracle APEX I created tables with primary keys, foreign keys, NOT NULL and UNIQUE constraints, changed them with ALTER TABLE and DROP TABLE, and managed records with INSERT, UPDATE and DELETE. I retrieved data with SELECT using aliases, WHERE, LIKE, ORDER BY, DISTINCT and aggregate functions, then GROUP BY, HAVING, subqueries and the join types INNER, LEFT, RIGHT, FULL OUTER, NATURAL and USING.</p></div>
+  <div class="q"><h3>What was most challenging?</h3><p>Outer joins and queries that compare a value with an average were the hardest, along with choosing which table goes on the left or right of a join. Normalization and supertype/subtype design were also difficult at first.</p></div>
+  <div class="q"><h3>How did I overcome the difficulties?</h3><p>I ran each query in Oracle APEX, checked the result against the table data, and confirmed changes with DESCRIBE or SELECT *. When a statement failed, I read the error, fixed it and ran it again. I also learned that a result with no rows can still be correct.</p></div>
+  <div class="q"><h3>How will I apply what I learned?</h3><p>As a Business Analytics student I will use SQL to collect data from several tables, combine it with joins and summarize it for reports. I will apply CRUD and database design in my Flutter and Firebase work and other projects.</p></div>
+</section>
+
+<section id="s9">
+  <div class="num">09</div><h2>Course Learning Summary</h2>
+  <p>ITC C201 gave me a complete path from planning a database to querying it. In the Prelim period I designed conceptual and logical models and an ERD with normalization. In the Midterm period I created my Oracle APEX account, built tables, and inserted, updated and deleted records. In the Final period I worked with aliases, sorting, aggregate functions and all major join types, and solved multi-step problems with grouping and subqueries.</p>
+  <p>This portfolio shows my progress from the first ERD sketch to advanced join queries, and I will continue to improve in the next courses.</p>
+</section>
+
+<footer class="small">Abdulrahman Alghannam · 26-267514 · 201BA · ITC C201 Individual Class Portfolio</footer>
+</div>
+
+
